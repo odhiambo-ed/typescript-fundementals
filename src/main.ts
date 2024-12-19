@@ -19,3 +19,7 @@ function displayMessage(result: string, comment: string, container: string) {
 let firstName: string = 'Edward';
 let greeting: string = `Hi there! ${firstName} God loves you`;
 displayMessage(greeting, 'String', 'div')
+
+let age: number = 32;
+let myAge: string = `Your age is ${age}`;
+displayMessage(myAge, 'Number', 'div')
