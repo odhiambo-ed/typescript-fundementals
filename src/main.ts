@@ -35,3 +35,8 @@ if (isDone) {
   let print: string = 'No';
   displayMessage(print, 'Boolean', 'div')
 }
+
+// Array
+let cars: string[] = ['Benz', 'VW', 'BMW', 'Ford']
+let carList: string = `You have: ${cars.length} cars and they are: ${cars.join(',')}`
+displayMessage(carList, 'Array', 'div')
