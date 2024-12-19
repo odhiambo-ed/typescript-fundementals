@@ -16,10 +16,22 @@ function displayMessage(result: string, comment: string, container: string) {
 }
 
 // Basic Data Types
+// String
 let firstName: string = 'Edward';
 let greeting: string = `Hi there! ${firstName} God loves you`;
 displayMessage(greeting, 'String', 'div')
 
+// Number
 let age: number = 32;
 let myAge: string = `Your age is ${age}`;
 displayMessage(myAge, 'Number', 'div')
+
+// Boolean
+let isDone: boolean = true;
+if (isDone) {
+  let print: string = 'Yes';
+  displayMessage(print, 'Boolean', 'div')
+} else {
+  let print: string = 'No';
+  displayMessage(print, 'Boolean', 'div')
+}
